@@ -31,7 +31,6 @@ body {
   font: normal 1em/1.45em "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #fff;
-  background: -webkit-radial-gradient(bottom ellipse, #1c2837 0%, #050608 100%);
   background-image: url("../img/sky.png");
   background-attachment: fixed;
   background-position: center;
@@ -95,13 +94,9 @@ code {
   font-size: .9em;
 }
 
-.universe {
-  background-image: url("../img/universe.png");
-  width: 100%;height: 100%;
-  background-position: center;
-}
-
 .solar-syst {
+  background-image: url("../img/universe.png");
+  background-position: center;
   margin: 0 auto;
   width: 100%;
   height: 100%;
@@ -222,9 +217,9 @@ code {
           animation: orb 56.42613s linear infinite;
 }
 .mars:before {
-  height: 6px;
-  width: 6px;
-  background: #cf3921;
+  height: 16px;
+  width: 16px;
+  background: #ffffff;
   margin-top: -3px;
   margin-left: -3px;
 }
@@ -368,8 +363,8 @@ code {
             transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(-360deg);
-            transform: rotate(-360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
@@ -379,7 +374,7 @@ code {
             transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(-360deg);
-            transform: rotate(-360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
