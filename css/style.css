@@ -67,7 +67,7 @@ a.icon, a:visited.icon {
   z-index: 999;
 }
 .description2 {
-  padding: 30px;
+  padding: 0 0 50px 30px;;
   position: absolute;
   bottom: 0;
   left: 0;
