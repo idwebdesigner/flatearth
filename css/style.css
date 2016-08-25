@@ -247,8 +247,8 @@ code {
           animation: orb 72.69525s linear infinite;
 }
 .saturn:before {
-  height: 8px;
-  width: 8px;
+  height: 6px;
+  width: 6px;
   background: #e7c194;
   margin-top: -6px;
   margin-left: -6px;
@@ -257,13 +257,13 @@ code {
   position: absolute;
   content: "";
   height: 2.34%;
-  width: 4.676%;
+  width: 2.676%;
   left: 50%;
   top: 0px;
   -webkit-transform: rotateZ(-52deg);
           transform: rotateZ(-52deg);
-  margin-left: -2.3%;
-  margin-top: -1.2%;
+  margin-left: -2.5%;
+  margin-top: -3.0%;
   border-radius: 50% 50% 50% 50%;
   box-shadow: 0 1px 0 1px #987641, 3px 1px 0 #987641, -3px 1px 0 #987641;
   -webkit-animation: orb 882.69525s linear infinite;
@@ -283,8 +283,8 @@ code {
           animation: orb 12.4002s linear infinite;
 }
 .uranus:before {
-  height: 10px;
-  width: 10px;
+  height: 5px;
+  width: 5px;
   background: #b5e3e3;
   margin-top: -5px;
   margin-left: -5px;
