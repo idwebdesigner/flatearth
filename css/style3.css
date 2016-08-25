@@ -84,24 +84,35 @@
 
 * { margin: 0; padding: 0; border: 0;}
 body {
-	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/background.jpg);
-	overflow: hidden;
-width: 100%;
+	background: url(../img/background.jpg);
+  height: 100%;
+  width: 100%;
+  margin-top: -0%; margin-left: -0%; overflow: hidden;
 
 }
+
+.flatearth3 {
+	width: 120px;
+	height: 120px;
+	position: fixed;
+  margin: 262px 150px;
+	border-radius: 60px;
+	box-shadow: 0px 0px 30px black;
+}
+
 .sun3 {
 	width: 120px;
 	height: 120px;
-	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/sun.png);
+	background: url(../img/sun1.png);
 	position: fixed;
-  margin: 262px 623px;
+  margin: 262px 150px;
 	border-radius: 60px;
-	box-shadow: 0px 0px 30px gold;
+	box-shadow: 0px 0px 30px black;
 }
 .mercury3 {
 	width: 156px;
 	height: 3px;
-	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/mercury.png);
+	background: url(../img/mercury1.png);
 	position: fixed;
 	margin: 321px 605px;
 	-webkit-animation: rotate 1.5s linear;
@@ -119,9 +130,9 @@ width: 100%;
 .venus3 {
 	width: 200px;
 	height: 7px;
-	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/venus.png);
+	background: url(../img/venus1.png);
 	position: fixed;
-	margin: 318px 583px;
+	margin: 318px 110px;
 	-webkit-animation: rotate 3.75s linear;
     -webkit-animation-iteration-count: infinite;
 	-moz-animation: rotate 3.75s linear;
@@ -136,9 +147,9 @@ width: 100%;
 .earth3 {
 	width: 245px;
 	height: 8px;
-	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/earth.png);
+	background: url(../img/earth1.png);
 	position: fixed;
-	margin: 318px 561px;
+	margin: 318px 87px;
 	-webkit-animation: rotate 6.1s linear;
     -webkit-animation-iteration-count: infinite;
 	-moz-animation: rotate 6.1s linear;
@@ -153,9 +164,9 @@ width: 100%;
 .mars3 {
 	width: 284px;
 	height: 4px;
-	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/mars.png);
+	background: url(../img/mars1.png);
 	position: fixed;
-	margin: 320px 541px;
+	margin: 320px 70px;
 	-webkit-animation: rotate 11.44s linear;
     -webkit-animation-iteration-count: infinite;
 	-moz-animation: rotate 11.44s linear;
@@ -170,9 +181,9 @@ width: 100%;
 .jupiter3 {
 	width: 493px;
 	height: 90px;
-	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/jupiter.png);
+	background: url(../img/jupiter1.png);
 	position: fixed;
-	margin: 277px 436px;
+	margin: 277px -40px;
 	-webkit-animation: rotate 72.3s linear;
     -webkit-animation-iteration-count: infinite;
 	-moz-animation: rotate 72.3s linear;
@@ -187,9 +198,9 @@ width: 100%;
 .saturn3 {
 	width: 679px;
 	height: 152px;
-	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/saturn.png);
+	background: url(../img/saturn1.png);
 	position: fixed;
-	margin: 278px 343px;
+	margin: 278px -100px;
 	-webkit-animation: rotate 179.6s linear;
     -webkit-animation-iteration-count: infinite;
 	-moz-animation: rotate 179.6s linear;
@@ -204,9 +215,9 @@ width: 100%;
 .uranus3 {
 	width: 767px;
 	height: 32px;
-	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/uranus.png);
+	background: url(../img/uranus1.png);
 	position: fixed;
-	margin: 306px 300px;
+	margin: 306px -50px;
 	-webkit-animation: rotate 512.2s linear;
     -webkit-animation-iteration-count: infinite;
 	-moz-animation: rotate 512.2s linear;
@@ -221,9 +232,9 @@ width: 100%;
 .neptune3 {
 	width: 859px;
 	height: 31px;
-	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/neptune.png);
+	background: url(../img/neptune1.png);
 	position: fixed;
-	margin: 307px 254px;
+	margin: 307px -7s0px;
 	-webkit-animation: rotate 1000s linear;
     -webkit-animation-iteration-count: infinite;
 	-moz-animation: rotate 1000s linear;
