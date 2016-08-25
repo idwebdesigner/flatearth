@@ -23,7 +23,6 @@ height: 100%;
 	background-image:url(http://solarscroller.rhettforbes.com/img/stars.jpg);
 	background-repeat: repeat;
 	background-color:#000;
-	overflow:hidden;
   -webkit-animation: sky 82s linear infinite;
   -moz-animation: sky 82s linear infinite;
 	-ms-animation: sky 82s linear infinite;
