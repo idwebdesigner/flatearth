@@ -24,7 +24,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0; overflow: hidden;
+  margin-top: -0%; margin-left: -0%; overflow: hidden;
 }
 
 body {
@@ -32,8 +32,9 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #fff;
   background: -webkit-radial-gradient(bottom ellipse, #1c2837 0%, #050608 100%);
-  background: radial-gradient(ellipse at bottom, #1c2837 0%, #050608 100%);
+  background-image: url("../img/sky.png");
   background-attachment: fixed;
+  background-position: center;
 }
 
 h1 {
@@ -63,7 +64,7 @@ a.icon, a:visited.icon {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60%;
+  width: 75%;
   z-index: 999;
 }
 .description p {
@@ -92,6 +93,12 @@ code {
   color: #ae94c0;
   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: .9em;
+}
+
+.universe {
+  background-image: url("../img/universe.png");
+  width: 100%;height: 100%;
+  background-position: center;
 }
 
 .solar-syst {
@@ -318,7 +325,7 @@ code {
   overflow: hidden;
 }
 .asteroids-belt:before {
-  top: 50%;
+  top: 50%;s
   height: 210px;
   width: 210px;
   margin-left: -105px;
