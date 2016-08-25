@@ -1,0 +1,236 @@
+@-webkit-keyframes rotate {
+	0% {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		}
+	100% {
+		transform:rotate(360deg);
+		-ms-transform:rotate(3600deg);
+		-moz-transform:rotate(360deg);
+		-webkit-transform:rotate(360deg);
+		-o-transform:rotate(360deg);
+	}
+}
+@-moz-keyframes rotate {
+	0% {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		}
+	100% {
+		transform:rotate(360deg);
+		-ms-transform:rotate(3600deg);
+		-moz-transform:rotate(360deg);
+		-webkit-transform:rotate(360deg);
+		-o-transform:rotate(360deg);
+	}
+}
+@-ms-keyframes rotate {
+	0% {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		}
+	100% {
+		transform:rotate(360deg);
+		-ms-transform:rotate(3600deg);
+		-moz-transform:rotate(360deg);
+		-webkit-transform:rotate(360deg);
+		-o-transform:rotate(360deg);
+	}
+}
+@-o-keyframes rotate {
+	0% {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		}
+	100% {
+		transform:rotate(360deg);
+		-ms-transform:rotate(3600deg);
+		-moz-transform:rotate(360deg);
+		-webkit-transform:rotate(360deg);
+		-o-transform:rotate(360deg);
+	}
+}
+@keyframes rotate {
+	0% {
+		transform:rotate(0deg);
+		-ms-transform:rotate(0deg);
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		}
+	100% {
+		transform:rotate(360deg);
+		-ms-transform:rotate(3600deg);
+		-moz-transform:rotate(360deg);
+		-webkit-transform:rotate(360deg);
+		-o-transform:rotate(360deg);
+	}
+}
+
+
+
+
+* { margin: 0; padding: 0; border: 0;}
+body {
+	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/background.jpg);
+	overflow: hidden;
+
+
+}
+.sun {
+	width: 120px;
+	height: 120px;
+	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/sun.png);
+	position: fixed;
+  margin: 262px 623px;
+	border-radius: 60px;
+	box-shadow: 0px 0px 30px gold;
+}
+.mercury {
+	width: 156px;
+	height: 3px;
+	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/mercury.png);
+	position: fixed;
+	margin: 321px 605px;
+	-webkit-animation: rotate 1.5s linear;
+    -webkit-animation-iteration-count: infinite;
+	-moz-animation: rotate 1.5s linear;
+    -moz-animation-iteration-count: infinite;
+	-ms-animation: rotate 1.5s linear;
+    -ms-animation-iteration-count: infinite;
+	-o-animation: rotate 1.5s linear;
+    -o-animation-iteration-count: infinite;
+	animation: rotate 1.5s linear;
+    animation-iteration-count: infinite;
+
+}
+.venus {
+	width: 200px;
+	height: 7px;
+	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/venus.png);
+	position: fixed;
+	margin: 318px 583px;
+	-webkit-animation: rotate 3.75s linear;
+    -webkit-animation-iteration-count: infinite;
+	-moz-animation: rotate 3.75s linear;
+    -moz-animation-iteration-count: infinite;
+	-ms-animation: rotate 3.75s linear;
+    -ms-animation-iteration-count: infinite;
+	-o-animation: rotate 3.75s linear;
+    -o-animation-iteration-count: infinite;
+	animation: rotate 3.75s linear;
+    animation-iteration-count: infinite;
+}
+.earth {
+	width: 245px;
+	height: 8px;
+	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/earth.png);
+	position: fixed;
+	margin: 318px 561px;
+	-webkit-animation: rotate 6.1s linear;
+    -webkit-animation-iteration-count: infinite;
+	-moz-animation: rotate 6.1s linear;
+    -moz-animation-iteration-count: infinite;
+	-ms-animation: rotate 6.1s linear;
+    -ms-animation-iteration-count: infinite;
+	-o-animation: rotate 6.1s linear;
+    -o-animation-iteration-count: infinite;
+	animation: rotate 6.1s linear;
+    animation-iteration-count: infinite;
+}
+.mars {
+	width: 284px;
+	height: 4px;
+	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/mars.png);
+	position: fixed;
+	margin: 320px 541px;
+	-webkit-animation: rotate 11.44s linear;
+    -webkit-animation-iteration-count: infinite;
+	-moz-animation: rotate 11.44s linear;
+    -moz-animation-iteration-count: infinite;
+	-ms-animation: rotate 11.44s linear;
+    -ms-animation-iteration-count: infinite;
+	-o-animation: rotate 11.44s linear;
+    -o-animation-iteration-count: infinite;
+	animation: rotate 11.44s linear;
+    animation-iteration-count: infinite;
+}
+.jupiter {
+	width: 493px;
+	height: 90px;
+	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/jupiter.png);
+	position: fixed;
+	margin: 277px 436px;
+	-webkit-animation: rotate 72.3s linear;
+    -webkit-animation-iteration-count: infinite;
+	-moz-animation: rotate 72.3s linear;
+    -moz-animation-iteration-count: infinite;
+	-ms-animation: rotate 72.3s linear;
+    -ms-animation-iteration-count: infinite;
+	-o-animation: rotate 72.3s linear;
+    -o-animation-iteration-count: infinite;
+	animation: rotate 72.3s linear;
+    animation-iteration-count: infinite;
+}
+.saturn {
+	width: 679px;
+	height: 152px;
+	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/saturn.png);
+	position: fixed;
+	margin: 278px 343px;
+	-webkit-animation: rotate 179.6s linear;
+    -webkit-animation-iteration-count: infinite;
+	-moz-animation: rotate 179.6s linear;
+    -moz-animation-iteration-count: infinite;
+	-ms-animation: rotate 179.6s linear;
+    -ms-animation-iteration-count: infinite;
+	-o-animation: rotate 179.6s linear;
+    -o-animation-iteration-count: infinite;
+	animation: rotate 179.6s linear;
+    animation-iteration-count: infinite;
+}
+.uranus {
+	width: 767px;
+	height: 32px;
+	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/uranus.png);
+	position: fixed;
+	margin: 306px 300px;
+	-webkit-animation: rotate 512.2s linear;
+    -webkit-animation-iteration-count: infinite;
+	-moz-animation: rotate 512.2s linear;
+    -moz-animation-iteration-count: infinite;
+	-ms-animation: rotate 512.2s linear;
+    -ms-animation-iteration-count: infinite;
+	-o-animation: rotate 512.2s linear;
+    -o-animation-iteration-count: infinite;
+	animation: rotate 512.2s linear;
+    animation-iteration-count: infinite;
+}
+.neptune{
+	width: 859px;
+	height: 31px;
+	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/neptune.png);
+	position: fixed;
+	margin: 307px 254px;
+	-webkit-animation: rotate 1000s linear;
+    -webkit-animation-iteration-count: infinite;
+	-moz-animation: rotate 1000s linear;
+    -moz-animation-iteration-count: infinite;
+	-ms-animation: rotate 1000s linear;
+    -ms-animation-iteration-count: infinite;
+	-o-animation: rotate 1000s linear;
+    -o-animation-iteration-count: infinite;
+	animation: rotate 1000s linear;
+    animation-iteration-count: infinite;
