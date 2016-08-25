@@ -24,6 +24,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin: 0; overflow: hidden;
 }
 
 body {
@@ -62,7 +63,7 @@ a.icon, a:visited.icon {
   position: absolute;
   top: 0;
   left: 0;
-  width: 25%;
+  width: 60%;
   z-index: 999;
 }
 .description p {
@@ -328,6 +329,7 @@ code {
 }
 
 .pluto {
+  display: none;
   height: 780px;
   width: 780px;
   margin-top: -450px;
@@ -336,6 +338,7 @@ code {
           animation: orb 7439.70741s linear infinite;
 }
 .pluto:before {
+  display: none;
   height: 3px;
   width: 3px;
   background: #fff;
