@@ -86,10 +86,10 @@
 body {
 	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/background.jpg);
 	overflow: hidden;
-width: 100%;
+
 
 }
-.sun3 {
+.sun {
 	width: 120px;
 	height: 120px;
 	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/sun.png);
@@ -98,7 +98,7 @@ width: 100%;
 	border-radius: 60px;
 	box-shadow: 0px 0px 30px gold;
 }
-.mercury3 {
+.mercury {
 	width: 156px;
 	height: 3px;
 	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/mercury.png);
@@ -116,7 +116,7 @@ width: 100%;
     animation-iteration-count: infinite;
 
 }
-.venus3 {
+.venus {
 	width: 200px;
 	height: 7px;
 	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/venus.png);
@@ -133,7 +133,7 @@ width: 100%;
 	animation: rotate 3.75s linear;
     animation-iteration-count: infinite;
 }
-.earth3 {
+.earth {
 	width: 245px;
 	height: 8px;
 	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/earth.png);
@@ -150,7 +150,7 @@ width: 100%;
 	animation: rotate 6.1s linear;
     animation-iteration-count: infinite;
 }
-.mars3 {
+.mars {
 	width: 284px;
 	height: 4px;
 	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/mars.png);
@@ -167,7 +167,7 @@ width: 100%;
 	animation: rotate 11.44s linear;
     animation-iteration-count: infinite;
 }
-.jupiter3 {
+.jupiter {
 	width: 493px;
 	height: 90px;
 	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/jupiter.png);
@@ -184,7 +184,7 @@ width: 100%;
 	animation: rotate 72.3s linear;
     animation-iteration-count: infinite;
 }
-.saturn3 {
+.saturn {
 	width: 679px;
 	height: 152px;
 	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/saturn.png);
@@ -201,7 +201,7 @@ width: 100%;
 	animation: rotate 179.6s linear;
     animation-iteration-count: infinite;
 }
-.uranus3 {
+.uranus {
 	width: 767px;
 	height: 32px;
 	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/uranus.png);
@@ -218,7 +218,7 @@ width: 100%;
 	animation: rotate 512.2s linear;
     animation-iteration-count: infinite;
 }
-.neptune3 {
+.neptune {
 	width: 859px;
 	height: 31px;
 	background: url(http://www.fenyviszony.hu/pestoati/solarsystem/neptune.png);
