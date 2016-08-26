@@ -9,12 +9,13 @@
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Lato:300'>
 <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
 
+
+
+        <link rel='stylesheet' href='css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/modal.css">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/footer.css">
-
-<link rel="stylesheet" href="css/smile-alert.css">
-<script src="js/smile-alert.js"></script>
-
   </head>
 
   <body>
@@ -57,6 +58,7 @@
 
 <div class='description2'>
 <div class="menu">
+
 <ul>
 <span><li><a style="background:none;border:none;width:80px;margin-left:0px;" class="drop"><i class='fa fa-bars icon'></i> PROJECT</a>
     <ul>
@@ -72,7 +74,7 @@
 </li></span>
 <span onclick="javascript:window.location.reload();"><li><a style="background:none;border:none;width:20px;margin-left:0px;" class="drop"><i class='fa fa-refresh icon'></i></a>
 </li></span>
-<span onclick="demo3()"><li><a style="background:none;border:none;width:50px;margin-left:-50px;" class="drop"><i class='fa fa-info-circle icon'></i> INFO</a>
+<span><li><a data-toggle="modal" href="#tallModal" style="background:none;border:none;width:50px;margin-left:-50px;" class="drop"><i class='fa fa-info-circle icon'></i> INFO</a>
 </li></span>
 <span><li><a style="background:none;border:none;width:80px;margin-left:-70px;" class="drop"><i class='fa fa-usd icon'></i> DONATE</a>
 </li></span>
@@ -81,56 +83,27 @@
 
 </div>
 
-<script>
-function demo3(){
-	var options = {
-			cancel          : true,
-			cancelText		: 'cancel',
-			cancelCallBack 	:function(event){
-				console.log('options.cancelCallBack');
-			},
-			delay           :0,
-			confirm	  		: true,
-			confirmText 	: 'confirm',
-			confirmCallBack : function(event){
-				console.log('options.confirmCallBack');
-			}
-		}
-	alert('demo 3','<img style="align:center" width:"100%" src="img/sun1.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a purus non turpis scelerisque molestie. Pellentesque id interdum nulla. Etiam nec ex porta, blandit felis eget, pulvinar turpis. Nam efficitur placerat nisl, ut tempor leo finibus eget. Praesent non dolor id purus scelerisque elementum ac eu enim. Cras euismod ipsum id mi malesuada, nec porttitor velit pulvinar. Proin hendrerit libero fringilla augue euismod, sit amet molestie dui dapibus. Mauris libero quam, bibendum et quam at, condimentum eleifend libero.',options);
-}
-function demo4(){
-	var options = {
-			cancel          : false,
-			cancelText		: 'cancel',
-			cancelCallBack 	:function(event){
-				console.log('options.cancelCallBack');
-			},
-			delay           :0,
-			confirm	  		: true,
-			confirmText 	: 'confirm',
-			confirmCallBack : function(event){
-				console.log('options.confirmCallBack');
-			}
-		}
-	alert('demo 4','demo 4 show message',options);
-}
-function demo5(){
-	var options = {
-			cancel          : true,
-			cancelText		: 'cancel button',
-			cancelCallBack 	:function(event){
-				console.log('options.cancelCallBack');
-			},
-			delay           :300,
-			confirm	  		: true,
-			confirmText 	: 'confirm button',
-			confirmCallBack : function(event){
-				console.log('options.confirmCallBack');
-			}
-		}
-	alert('demo 5','demo 5 show message',options);
-}
-</script>
+<div id="tallModal" class="modal modal-wide fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src="js/modal.js"></script>
 
   </body>
 </html>
