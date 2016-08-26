@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/footer.css">
 
+<link rel="stylesheet" href="css/smile-alert.css">
+<script src="js/smile-alert.js"></script>
+
   </head>
 
   <body>
@@ -69,11 +72,65 @@
 </li></span>
 <span onclick="javascript:window.location.reload();"><li><a style="background:none;border:none;width:20px;margin-left:0px;" class="drop"><i class='fa fa-refresh icon'></i></a>
 </li></span>
-<span><li><a style="background:none;border:none;width:80px;margin-left:-50px;" class="drop"><i class='fa fa-usd icon'></i> DONATE</a>
+<span onclick="demo3()"><li><a style="background:none;border:none;width:50px;margin-left:-50px;" class="drop"><i class='fa fa-info-circle icon'></i> INFO</a>
+</li></span>
+<span><li><a style="background:none;border:none;width:80px;margin-left:-70px;" class="drop"><i class='fa fa-usd icon'></i> DONATE</a>
 </li></span>
 </ul>
 </div>
 
 </div>
+
+<script>
+function demo3(){
+	var options = {
+			cancel          : true,
+			cancelText		: 'cancel',
+			cancelCallBack 	:function(event){
+				console.log('options.cancelCallBack');
+			},
+			delay           :0,
+			confirm	  		: true,
+			confirmText 	: 'confirm',
+			confirmCallBack : function(event){
+				console.log('options.confirmCallBack');
+			}
+		}
+	alert('demo 3','<img style="align:center" width:"100%" src="img/sun1.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a purus non turpis scelerisque molestie. Pellentesque id interdum nulla. Etiam nec ex porta, blandit felis eget, pulvinar turpis. Nam efficitur placerat nisl, ut tempor leo finibus eget. Praesent non dolor id purus scelerisque elementum ac eu enim. Cras euismod ipsum id mi malesuada, nec porttitor velit pulvinar. Proin hendrerit libero fringilla augue euismod, sit amet molestie dui dapibus. Mauris libero quam, bibendum et quam at, condimentum eleifend libero.',options);
+}
+function demo4(){
+	var options = {
+			cancel          : false,
+			cancelText		: 'cancel',
+			cancelCallBack 	:function(event){
+				console.log('options.cancelCallBack');
+			},
+			delay           :0,
+			confirm	  		: true,
+			confirmText 	: 'confirm',
+			confirmCallBack : function(event){
+				console.log('options.confirmCallBack');
+			}
+		}
+	alert('demo 4','demo 4 show message',options);
+}
+function demo5(){
+	var options = {
+			cancel          : true,
+			cancelText		: 'cancel button',
+			cancelCallBack 	:function(event){
+				console.log('options.cancelCallBack');
+			},
+			delay           :300,
+			confirm	  		: true,
+			confirmText 	: 'confirm button',
+			confirmCallBack : function(event){
+				console.log('options.confirmCallBack');
+			}
+		}
+	alert('demo 5','demo 5 show message',options);
+}
+</script>
+
   </body>
 </html>

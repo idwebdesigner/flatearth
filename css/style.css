@@ -71,7 +71,7 @@ a.icon, a:visited.icon {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 75%;
+  width: 100%;
   z-index: 999;
 }
 .description p {
