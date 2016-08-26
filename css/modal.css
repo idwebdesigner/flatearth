@@ -1,8 +1,13 @@
+.modal-content {
+  background: #030C14; opacity: 0.9;overflow: hidden;
+}
 .modal.modal-wide .modal-dialog {
-  width: 90%;
+  width: 90%;margin-left: 5%;
 }
 .modal-wide .modal-body {
-  overflow-y: auto;
+  overflow-y: auto;font-size: 12px;color: #ffffff;
 }
 
-#tallModal .modal-body p { margin-bottom: 900px }
+#tallModal .modal-body p { margin-bottom: 0px; }
+
+.modal-title {font-size: 20px;color: #ffffff;}
