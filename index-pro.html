@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Solar System animation - Pure CSS</title>
+
+      <script type="text/javascript">
+          <!--
+          if (screen.width >= 800) {
+            window.location = "http://designer.web.id";
+          }
+          //-->
+        </script>
+
+    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Lato:300'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+
+
+
+        <link rel='stylesheet' href='css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/modal.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/footer.css">
+  </head>
+
+  <body>
+
+<div class='description'>
+  <h2 style="font-size: 1.5em;font-weight: bold;">Flat Earth</h2>
+  <p class='author'>
+    Experience by IDWEBDesigner
+  </p>
+  <p class='author' style="margin-top:-10px;">
+    Made with
+    <i class='fa fa-heart'></i>
+    by far.ID
+  </p>
+  <p class='links'>
+    <a class='fa fa-instagram icon' href='http://codepen.io/kowlor/' target='_blank'></a>
+    <a class='fa fa-facebook-square icon' href='https://github.com/KOWLOR' target='_blank'></a>
+    <a class='fa fa-twitter-square icon' href='https://twitter.com/Dathink' target='_blank'></a>
+  </p>
+</div>
+
+<div class='solar-syst'>
+  <div class='mercury'></div>
+  <div class='venus'></div>
+  <div class='earth'></div>
+  <div class='mars'></div>
+  <div class='jupiter'></div>
+  <div class='saturn'></div>
+  <div class='uranus'></div>
+  <div class='neptune'></div>
+  <div class='pluto'></div>
+  <div class='asteroids-belt'></div>
+</div>
+
+<div><img style="width: 300px;height: 300px;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;margin-top: -150px;
+  margin-left: -150px;" src="img/flatearth.png"> </div>
+
+<div class='description2'>
+<div class="menu">
+
+<ul>
+<span><li><a style="background:none;border:none;width:80px;margin-left:0px;" class="drop"><i class='fa fa-bars icon'></i> PROJECT</a>
+    <ul>
+    <li><a href="index.html" title="The zero dollar ads page">SUN ORBIT</a></li>
+    <li><a href="nightsky.html" title="The zero dollar ads page">SKY IN THE NIGHT</a></li>
+    <li><a href="starmoving.html" title="Wrapping text around images">STAR MOVING</a></li>
+    <li><a href="twinkle.html" title="Styling forms">TWINKLE LITTLE STAR</a></li>
+    <li class="upone"><a href="celestial.html" title="Multi-position drop shadow">NORTH CELESTIAL POLE</a></li>
+    <li><a href="cloud.html" title="Image Map for detailed information">BEHIND CLOUD</a></li>
+    <li><a href="planetorbit.html" title="fun with background images">PLANET ORBIT</a></li>
+    <li><a href="clock.html" title="em size images compared">CLOCK</a></li>
+    </ul>
+</li></span>
+<span onclick="javascript:window.location.reload();"><li><a style="background:none;border:none;width:20px;margin-left:0px;" class="drop"><i class='fa fa-refresh icon'></i></a>
+</li></span>
+<span><li><a data-toggle="modal" href="#tallModal" style="background:none;border:none;width:80px;margin-left:-50px;" class="drop"><i class='fa fa-info-circle icon'></i> CONCEPT</a>
+</li></span>
+<span><li><a style="background:none;border:none;width:80px;margin-left:-50px;" class="drop"><i class='fa fa-usd icon'></i> DONATE</a>
+</li></span>
+</ul>
+</div>
+
+</div>
+
+    <div id="tallModal" class="modal modal-wide fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Sun Orbit</h4>
+      </div>
+      <div class="modal-body">
+        <p><img src="img/asset2.jpg" width="100%"></p>
+        <p>This illustration is an idea that the earth is not moving, but the sun and all celestial bodies that move upon the earth. All of this seems plausible, how the change of day and night, the occurrence of the eclipse, and so forth.</p>
+        <br /><p><img src="img/asset1.jpg" width="100%"></p>
+        <p>As it orbits the sun seen from the hemisphere outside the line of the equator. This picture is visible from Earth near the north pole which is only slightly during the day.</p>
+        <br /><p style="font-size:10px;line-height:15px;"> <i class='fa fa-info-circle icon'></i> SUPPORT OUR PROJECT TO MAKE GREAT ILUSTRATION.<br/>&nbsp;&nbsp;&nbsp;&nbsp;WE ARE INDONESIA WEB DESIGNER.</p>
+        <p style="font-size:10px;line-height:12px;padding-left:10px;padding-top:5px;">The project is still an early version. Only describe how the heavenly bodies revolve. Rotation time measurement is not based on a real time scale. Extra light effects sun-exposed parts of the globe and who could not be more charming.</p>
+        <br /><p>Pics: forum.tfes.org, cut2thetruth.wordpress.com</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Donate Project</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>
+
+    <script src='js/jquery-2.1.0.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src="js/modal.js"></script>
+
+  </body>
+</html>
