@@ -74,6 +74,14 @@ a.icon, a:visited.icon {
   width: 100%;
   z-index: 999;
 }
+.description3 {
+  padding: 0 0 20px 30px;;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
 .description p {
   font-size: .9em;
 }
