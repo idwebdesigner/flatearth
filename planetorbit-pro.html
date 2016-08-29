@@ -9,6 +9,9 @@
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Lato:300'>
 <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
 
+        <link rel='stylesheet' href='css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/modal.css">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/style3.css">
@@ -18,9 +21,9 @@
   <body>
 
 <div class='description'>
-  <h2>Flat Earth</h2>
+  <h2 style="font-size: 1.5em;font-weight: bold;">Flat Earth</h2>
   <p class='author'>
-    Proudly Powered by IDWEBDesigner
+    Experience by IDWEBDesigner
   </p>
   <p class='author' style="margin-top:-10px;">
     Made with
@@ -56,23 +59,58 @@
 <ul>
 <span><li><a style="background:none;border:none;width:80px;margin-left:0px;" class="drop"><i class='fa fa-bars icon'></i> PROJECT</a>
     <ul>
-    <li><a href="index-pro.html" title="The zero dollar ads page">SUN ORBIT</a></li>
-    <li><a href="nightsky-pro.html" title="The zero dollar ads page">SKY IN THE NIGHT</a></li>
-    <li><a href="starmoving-pro.html" title="Wrapping text around images">STAR MOVING</a></li>
-    <li><a href="twinkle-pro.html" title="Styling forms">TWINKLE LITTLE STAR</a></li>
-    <li class="upone"><a href="celestial-pro.html" title="Multi-position drop shadow">NORTH CELESTIAL POLE</a></li>
-    <li><a href="cloud-pro.html" title="Image Map for detailed information">BEHIND CLOUD</a></li>
-    <li><a href="planetorbit-pro.html" title="fun with background images">PLANET ORBIT</a></li>
-    <li><a href="clock-pro.html" title="em size images compared">CLOCK</a></li>
+    <li><a href="index-pro.html" title="SUN ORBIT">SUN ORBIT</a></li>
+
+    <li><a title="SKY IN THE NIGHT">SKY IN THE NIGHT</a>
+        <ul>
+            <li><a href="telescope-pro.html" title="NIGHT SKY AND TELESCOPE">NIGHT SKY AND TELESCOPE</a></li>
+            <li><a href="starmoving-pro.html" title="STAR MOVING">STAR MOVING</a></li>
+            <li class="upone"><a href="celestial-pro.html" title="NORTH CELESTIAL POLE">NORTH CELESTIAL POLE</a></li>
+            <ul>
+            <li><a href="cloud-pro.html" title="Image Map for detailed information">ABOVE THE CLOUD</a></li>
+        </ul>
+        </ul>
+    </li>
+
+    <li><a href="planetorbit-pro.html" title="PLANET ORBIT">PLANET ORBIT</a></li>
+    <li><a href="clock-pro.html" title="CLOCK">CLOCK</a></li>
     </ul>
 </li></span>
 <span onclick="javascript:window.location.reload();"><li><a style="background:none;border:none;width:20px;margin-left:0px;" class="drop"><i class='fa fa-refresh icon'></i></a>
+</li></span>
+<span><li><a data-toggle="modal" href="#tallModal" style="background:none;border:none;width:80px;margin-left:-50px;" class="drop"><i class='fa fa-info-circle icon'></i> CONCEPT</a>
 </li></span>
 </ul>
 </div>
 
 </div>
 
+    <div id="tallModal" class="modal modal-wide fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Sun Orbit</h4>
+      </div>
+      <div class="modal-body">
+        <p><img src="img/asset2.jpg" width="100%"></p>
+        <p>This illustration is an idea that the earth is not moving, but the sun and all celestial bodies that move upon the earth. All of this seems plausible, how the change of day and night, the occurrence of the eclipse, and so forth.</p>
+        <br /><p><img src="img/asset1.jpg" width="100%"></p>
+        <p>As it orbits the sun seen from the hemisphere outside the line of the equator. This picture is visible from Earth near the north pole which is only slightly during the day.</p>
+        <br /><p style="font-size:10px;line-height:15px;"> <i class='fa fa-info-circle icon'></i> SUPPORT OUR PROJECT TO MAKE GREAT ILUSTRATION.<br/>&nbsp;&nbsp;&nbsp;&nbsp;WE ARE INDONESIA WEB DESIGNER.</p>
+        <p style="font-size:10px;line-height:12px;padding-left:10px;padding-top:5px;">The project is still an early version. Only describe how the heavenly bodies revolve. Rotation time measurement is not based on a real time scale. Extra light effects sun-exposed parts of the globe and who could not be more charming.</p>
+        <br /><p>Pics: forum.tfes.org, cut2thetruth.wordpress.com</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a href="http://designer.web.id"><button type="button" class="btn btn-primary">Support Project</button></a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>
+
+    <script src='js/jquery-2.1.0.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src="js/modal.js"></script>
       <script src="js/index3.js"></script>
 
   </body>

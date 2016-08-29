@@ -9,9 +9,12 @@
     <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Lato:300'>
 <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
 
+        <link rel='stylesheet' href='css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/modal.css">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/footer.css">
-      <link rel="stylesheet" href="css/css3clock.css">
+        <link rel="stylesheet" href="css/css3clock.css">
 
   </head>
 
@@ -19,9 +22,9 @@
 
 
 <div class='description'>
-  <h2>Flat Earth</h2>
+  <h2 style="font-size: 1.5em;font-weight: bold;">Flat Earth</h2>
   <p class='author'>
-    Proudly Powered by IDWEBDesigner
+    Experience by IDWEBDesigner
   </p>
   <p class='author' style="margin-top:-10px;">
     Made with
@@ -109,21 +112,58 @@ requestAnimationFrame(updateclock)
 <ul>
 <span><li><a style="background:none;border:none;width:80px;margin-left:0px;" class="drop"><i class='fa fa-bars icon'></i> PROJECT</a>
     <ul>
-    <li><a href="index-pro.html" title="The zero dollar ads page">SUN ORBIT</a></li>
-    <li><a href="nightsky-pro.html" title="The zero dollar ads page">SKY IN THE NIGHT</a></li>
-    <li><a href="starmoving-pro.html" title="Wrapping text around images">STAR MOVING</a></li>
-    <li><a href="twinkle-pro.html" title="Styling forms">TWINKLE LITTLE STAR</a></li>
-    <li class="upone"><a href="celestial-pro.html" title="Multi-position drop shadow">NORTH CELESTIAL POLE</a></li>
-    <li><a href="cloud-pro.html" title="Image Map for detailed information">BEHIND CLOUD</a></li>
-    <li><a href="planetorbit-pro.html" title="fun with background images">PLANET ORBIT</a></li>
-    <li><a href="clock-pro.html" title="em size images compared">CLOCK</a></li>
+    <li><a href="index-pro.html" title="SUN ORBIT">SUN ORBIT</a></li>
+
+    <li><a title="SKY IN THE NIGHT">SKY IN THE NIGHT</a>
+        <ul>
+            <li><a href="telescope-pro.html" title="NIGHT SKY AND TELESCOPE">NIGHT SKY AND TELESCOPE</a></li>
+            <li><a href="starmoving-pro.html" title="STAR MOVING">STAR MOVING</a></li>
+            <li class="upone"><a href="celestial-pro.html" title="NORTH CELESTIAL POLE">NORTH CELESTIAL POLE</a></li>
+            <ul>
+            <li><a href="cloud-pro.html" title="Image Map for detailed information">ABOVE THE CLOUD</a></li>
+        </ul>
+        </ul>
+    </li>
+
+    <li><a href="planetorbit-pro.html" title="PLANET ORBIT">PLANET ORBIT</a></li>
+    <li><a href="clock-pro.html" title="CLOCK">CLOCK</a></li>
     </ul>
 </li></span>
 <span onclick="javascript:window.location.reload();"><li><a style="background:none;border:none;width:20px;margin-left:0px;" class="drop"><i class='fa fa-refresh icon'></i></a>
+</li></span>
+<span><li><a data-toggle="modal" href="#tallModal" style="background:none;border:none;width:80px;margin-left:-50px;" class="drop"><i class='fa fa-info-circle icon'></i> CONCEPT</a>
 </li></span>
 </ul>
 </div>
 
 </div>
+
+    <div id="tallModal" class="modal modal-wide fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Flat Earth Time</h4>
+      </div>
+      <div class="modal-body">
+        <p><img src="img/asset2.jpg" width="100%"></p>
+        <p>Kami memiliki ide dipikiran kami bagaimana 24 jam sehari dalam konsep bumi datar, jam bekerja. Matahari yang berputar, pergantian siang dan malam, dan konsep siang malam dan pergantian waktu. Tapi konsep ini cukup kompleks untuk direalisasikan.</p>
+        <br /><p><img src="img/asset1.jpg" width="100%"></p>
+        <p>Butuh riset untuk menerapkan konsep ini lebih jauh. Dengan perhitungan yang akurat dan relevan dengan waktu nyata didunia.</p>
+        <br /><p style="font-size:10px;line-height:15px;"> <i class='fa fa-info-circle icon'></i> SUPPORT OUR PROJECT TO MAKE GREAT ILUSTRATION.<br/>&nbsp;&nbsp;&nbsp;&nbsp;WE ARE INDONESIA WEB DESIGNER.</p>
+        <p style="font-size:10px;line-height:12px;padding-left:10px;padding-top:5px;">The project is still an early version. Butuh riset lebih jauh untuk menghitung dengan akurat waktu nyata didunia. Jika anda egerti dan tertarik dengan proyek ini, gabung dengan kami.</p>
+        <br /><p></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a href="http://designer.web.id"><button type="button" class="btn btn-primary">Support Project</button></a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>
+
+    <script src='js/jquery-2.1.0.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src="js/modal.js"></script>
+
   </body>
 </html>
